@@ -1,0 +1,18 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "ps-mob:base/rare",
+          "conditions": [
+            {
+              "condition": "minecraft:killed_by_player"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

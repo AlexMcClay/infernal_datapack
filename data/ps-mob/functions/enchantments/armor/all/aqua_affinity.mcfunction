@@ -1,0 +1,1 @@
+$data modify storage alex:enchant $(storage) set value {id:"minecraft:aqua_affinity",lvl:$(level)}

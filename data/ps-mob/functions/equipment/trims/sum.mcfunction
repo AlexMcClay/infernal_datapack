@@ -1,0 +1,1 @@
+$data modify storage alex:enchant finaltrim set value {material:"$(material)", pattern:"$(pattern)"}

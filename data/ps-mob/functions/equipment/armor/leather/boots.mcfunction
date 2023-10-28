@@ -1,0 +1,1 @@
+$data modify entity @s ArmorItems[0] set value {id:"minecraft:leather_boots", Count:1, tag:{Enchantments: $(final)}}

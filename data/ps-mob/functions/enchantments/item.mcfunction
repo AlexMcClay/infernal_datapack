@@ -1,0 +1,1 @@
+$give @p minecraft:diamond_chestplate{display:{Lore:["\"A legendary Armor\""]}, Enchantments: $(final)} 1

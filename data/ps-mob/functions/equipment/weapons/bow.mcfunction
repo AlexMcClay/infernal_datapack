@@ -1,0 +1,1 @@
+$data modify entity @s HandItems[0] set value {id:"minecraft:bow", Count:1, tag:{Enchantments: $(final)}}
