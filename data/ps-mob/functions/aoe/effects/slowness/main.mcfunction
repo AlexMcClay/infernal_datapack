@@ -1,0 +1,1 @@
+function ps-mob:aoe/effects/slowness/slow5

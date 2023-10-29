@@ -4,6 +4,8 @@ attribute @s minecraft:generic.max_health modifier add 15213119-0002-0002-0002-0
 attribute @s minecraft:generic.movement_speed modifier add 15213119-0002-0002-0002-000000000002 ps-mob.movement_speed 1 multiply
 attribute @s minecraft:generic.attack_damage modifier add 15213119-0002-0002-0002-000000000002 ps-mob.attack_damage 4 multiply
 attribute @s minecraft:generic.knockback_resistance modifier add 15213119-0002-0002-0002-000000000002 ps-mob.knockback_resistance 1 add
+attribute @s generic.follow_range base set 64
+
 tag @s add ps-mob.legendary
 team join ps-mob.legendary @s
 data modify entity @s DeathLootTable set value "ps-mob:captain/legendary"
