@@ -1,0 +1,1 @@
+execute as @e[tag=ps-mob.aoewither5, type=#ps-mob:captains] at @s run summon area_effect_cloud ~ ~ ~ {Particle:smoke,Radius:5,Duration:5}

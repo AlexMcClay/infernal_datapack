@@ -2,7 +2,7 @@
 attribute @s minecraft:generic.max_health modifier add 15213119-0002-0002-0002-000000000002 ps-mob.max_health 60 add
 # attribute @s minecraft:generic.armor modifier add 15213119-0002-0002-0002-000000000002 ps-mob.armor 4 add
 attribute @s minecraft:generic.movement_speed modifier add 15213119-0002-0002-0002-000000000002 ps-mob.movement_speed 0.5 multiply
-attribute @s minecraft:generic.attack_damage modifier add 15213119-0002-0002-0002-000000000002 ps-mob.attack_damage 2 multiply
+attribute @s minecraft:generic.attack_damage modifier add 15213119-0002-0002-0002-000000000002 ps-mob.attack_damage 1.5 multiply
 attribute @s minecraft:generic.knockback_resistance modifier add 15213119-0002-0002-0002-000000000002 ps-mob.knockback_resistance 0.1 add
 attribute @s generic.follow_range base set 64
 
@@ -34,6 +34,8 @@ execute as @s if entity @s[type=piglin_brute] run data merge entity @s {CustomNa
 execute as @s if entity @s[type=evoker] run data merge entity @s {CustomName:"\"Evoker Lieutenant\""}
 
 function ps-mob:apply_random_effect
+function ps-mob:apply_random_effect
+
 # tag @s add ps-mob.aoeblind5
 
 # MobCaptains v2.1.2 by PuckiSilver
