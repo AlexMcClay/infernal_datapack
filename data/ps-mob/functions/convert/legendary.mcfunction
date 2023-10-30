@@ -9,6 +9,11 @@ attribute @s generic.follow_range base set 64
 tag @s add ps-mob.legendary
 team join ps-mob.legendary @s
 data modify entity @s DeathLootTable set value "ps-mob:captain/legendary"
+data modify entity @s PersistenceRequired set value 1b
+
+
+
+# Text
 execute if score .notify_on_spawn ps-mob.config matches 1.. at @s run tellraw @a[distance=..128] ["", {"text": "\u2620", "color": "#FF6C33"}, {"text": " A legendary ", "color": "#FF6C33"}, {"selector": "@s", "color": "#FF6C33"}, {"text": " General", "color": "#FF6C33"},  {"text": " Roams the lands, watch out", "color": "white"}]
 execute if score .notify_on_spawn ps-mob.config matches 1.. if score .notify_with_sound ps-mob.config matches 1 at @s run playsound entity.wither.spawn ambient @a[distance=..128] ~ ~ ~ 0.5 1.8 0.5
 execute if score .beam_on_spawn ps-mob.config matches 1 at @s run particle dust 1 0.871 0.133 5 ~ ~ ~ 0 200 0 0 300 force

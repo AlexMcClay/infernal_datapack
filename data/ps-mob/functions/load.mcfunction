@@ -23,6 +23,10 @@ execute unless score #random ps-mob = #random ps-mob store result score #random 
 execute unless score #rand_a ps-mob = #rand_a ps-mob run scoreboard players set #rand_a ps-mob 1234567
 execute unless score #rand_c ps-mob = #rand_c ps-mob run scoreboard players set #rand_c ps-mob 1234567
 
+
+# Bossbars
+function ps-mob:bossbars/load
+
 # Scheduled things
 schedule function ps-mob:tick5t 5 replace
 schedule function ps-mob:tick5s 20 replace

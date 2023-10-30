@@ -9,6 +9,10 @@ attribute @s generic.follow_range base set 64
 tag @s add ps-mob.rare
 team join ps-mob.rare @s
 data modify entity @s DeathLootTable set value "ps-mob:captain/rare"
+data modify entity @s PersistenceRequired set value 1b
+
+
+# Text
 execute if score .notify_on_spawn ps-mob.config matches 2.. at @s run tellraw @a[distance=..128] ["", {"text": "\u2620", "color": "#B400FF"}, {"text": " A ", "color": "white"}, {"text": "rare ", "color": "#B400FF"}, {"selector": "@s", "color": "#B400FF"}, {"text": " Captain", "color": "#B400FF"}, {"text": " Roams the lands, watch out", "color": "white"}]
 execute if score .notify_on_spawn ps-mob.config matches 2.. if score .notify_with_sound ps-mob.config matches 1 at @s run playsound entity.wither.spawn ambient @a[distance=..128] ~ ~ ~ 0.5 1.8 0.5
 execute if score .beam_on_spawn ps-mob.config matches 1 at @s run particle dust 0.7 0 1 5 ~ ~ ~ 0 200 0 0 300 force
