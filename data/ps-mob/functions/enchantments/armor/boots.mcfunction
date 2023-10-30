@@ -13,7 +13,6 @@ execute if score @s enchantVal matches 37..45 run function ps-mob:enchantments/a
 execute if score @s enchantVal matches 46..54 run function ps-mob:enchantments/armor/all/feather_falling with storage alex:enchant temp
 execute if score @s enchantVal matches 55..63 run function ps-mob:enchantments/armor/all/frost_walker with storage alex:enchant temp
 execute if score @s enchantVal matches 64..72 run function ps-mob:enchantments/armor/all/protection with storage alex:enchant temp
-execute if score @s enchantVal matches 72..77 run function ps-mob:enchantments/armor/all/thorns with storage alex:enchant temp
 execute if score @s enchantVal matches 78..92 run function ps-mob:enchantments/general/unbreaking with storage alex:enchant temp
 execute if score @s enchantVal matches 83..96 run function ps-mob:enchantments/armor/all/soul_speed with storage alex:enchant temp
 execute if score @s enchantVal matches 97..100 run function ps-mob:enchantments/general/mending with storage alex:enchant temp

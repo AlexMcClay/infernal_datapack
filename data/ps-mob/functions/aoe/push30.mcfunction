@@ -1,0 +1,1 @@
+execute as @e[tag=ps-mob.push30] run execute at @s as @a[distance=..10] at @s run summon area_effect_cloud ~ ~ ~ {Particle:cloud,Radius:1,Duration:10,effects:[{id:levitation,duration:10,amplifier:30,show_particles:0b}]}

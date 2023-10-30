@@ -25,7 +25,9 @@ execute unless score #rand_c ps-mob = #rand_c ps-mob run scoreboard players set 
 
 # Scheduled things
 schedule function ps-mob:tick5t 5 replace
-schedule function ps-mob:tick20s 40 replace
 schedule function ps-mob:tick5s 20 replace
+schedule function ps-mob:tick10s 20 replace
+schedule function ps-mob:tick20s 40 replace
+schedule function ps-mob:tick30s 40 replace
 schedule function ps-mob:register_new 1s replace
 # MobCaptains v2.1.2 by PuckiSilver
