@@ -34,6 +34,7 @@ execute as @s if entity @s[type=piglin] run data merge entity @s {CustomName:"\"
 execute as @s if entity @s[type=piglin_brute] run data merge entity @s {CustomName:"\"Piglin Brute Captain\""}
 execute as @s if entity @s[type=evoker] run data merge entity @s {CustomName:"\"Evoker Captain\""}
 
+# Effects
 function ps-mob:apply_random_effect
 function ps-mob:apply_random_effect
 function ps-mob:apply_random_effect

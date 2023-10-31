@@ -1,0 +1,1 @@
+execute as @e[tag=summoned] run kill @s
