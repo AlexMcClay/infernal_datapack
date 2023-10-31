@@ -9,7 +9,7 @@ attribute @s generic.follow_range base set 64
 tag @s add ps-mob.rare
 team join ps-mob.rare @s
 data modify entity @s DeathLootTable set value "ps-mob:captain/rare"
-data modify entity @s PersistenceRequired set value 1b
+# data modify entity @s PersistenceRequired set value 1b
 
 
 # Text

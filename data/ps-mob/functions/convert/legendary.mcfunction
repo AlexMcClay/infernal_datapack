@@ -9,7 +9,7 @@ attribute @s generic.follow_range base set 64
 tag @s add ps-mob.legendary
 team join ps-mob.legendary @s
 data modify entity @s DeathLootTable set value "ps-mob:captain/legendary"
-data modify entity @s PersistenceRequired set value 1b
+# data modify entity @s PersistenceRequired set value 1b
 
 
 

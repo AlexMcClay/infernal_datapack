@@ -1,0 +1,8 @@
+kill @e[type=zombie]
+kill @e[type=skeleton]
+kill @e[type=spider]
+kill @e[type=creeper]
+kill @e[type=enderman]
+kill @e[type=area_effect_cloud]
+kill @e[type=marker]
+kill @e[type=potion]

@@ -1,1 +1,1 @@
-execute as @e[tag=ps-mob.aoeslow5, type=#ps-mob:captains] at @s run summon area_effect_cloud ~ ~ ~ {Particle:sculk_soul,Radius:5,Duration:5}
+execute as @a at @s run execute as @e[tag=ps-mob.aoeslow5, type=#ps-mob:captains, distance=..16] at @s run summon area_effect_cloud ~ ~ ~ {Particle:sculk_soul,Radius:5,Duration:5}

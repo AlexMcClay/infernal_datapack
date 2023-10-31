@@ -9,7 +9,7 @@ attribute @s generic.follow_range base set 64
 tag @s add ps-mob.uncommon
 team join ps-mob.uncommon @s
 data modify entity @s DeathLootTable set value "ps-mob:captain/uncommon"
-data modify entity @s PersistenceRequired set value 1b
+# data modify entity @s PersistenceRequired set value 1b
 
 # Text
 execute if score .notify_on_spawn ps-mob.config matches 3.. at @s run tellraw @a[distance=..128] ["", {"text": "\u2620", "color": "#00FF00"}, {"text": " An ", "color": "white"}, {"text": "uncommon ", "color": "#00FF00"}, {"selector": "@s", "color": "#00FF00"}, {"text": " Lieutenant", "color": "#00FF00"}, {"text": " Roams the lands, watch out", "color": "white"}]
